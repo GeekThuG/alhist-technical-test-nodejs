@@ -8,7 +8,7 @@ Créez un fork du projet et pushez votre code dessus puis envoyez moi le lien.
 J'ai une table "steps" dans ma base de donnée qui représente des étapes contenant une action, considérez que votre base de données vous retourne par exemple:
 ```
 const steps = [
-  {id: 1, action: 'START', next_step_id: 3},
+  {id: 1, action: 'START', next _step_id: 3},
   {id: 3, action: 'BOIRE', next_step_id: 2},
   {id: 2, action: 'DORMIR', next_step_id: 5},
   {id: 5, action: 'TRAVAILLER', next_step_id: 4},
